@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;
+ 
+}
+
+app-header {
+  height: 90px;
+  flex-shrink: 0;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  background: #f8fafc;
+  transition: all 0.3s;
+}
+
+.content.full {
+  margin-left: 0;
+}
+
+.sidebar {
+  height: 100%;
+}

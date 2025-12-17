@@ -1,0 +1,31 @@
+.sidebar {
+  width: 200px;
+  background: white;
+  padding: 10px;
+  transition: width 0.3s;
+  border-right: 6px solid #c8c8cb;
+
+  &.closed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #374151;
+
+  &.active {
+    background: #e6f4ff;
+    color: #1677ff;
+  }
+  
+}
